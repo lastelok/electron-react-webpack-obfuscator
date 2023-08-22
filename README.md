@@ -15,7 +15,7 @@ Special thanks to [electron-react-webpack-typescript-2023](https://github.com/co
 -   Obfuscation of source code after compilation
 -   [IPC](https://www.electronjs.org/docs/latest/api/ipc-main) call example
 
-<br><br>
+<br>
 
 # Core Features
 
