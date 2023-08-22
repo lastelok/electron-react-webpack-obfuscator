@@ -1,0 +1,75 @@
+{
+    "name": "electron-react-webpack-obfuscator-2023",
+    "productName": "ERWO Boilerplate",
+    "version": "1.0.0",
+    "description": "Custom boilerplate for writing Desktop Applications using Electron, React, Webpack, Obfuscator in 2023",
+    "main": ".webpack/main",
+    "scripts": {
+        "start": "cross-env NODE_ENV=development electron-forge start",
+        "package": "electron-forge package",
+        "make": "electron-forge make",
+        "publish": "electron-forge publish",
+        "lint": "eslint src/ --ext .ts,.js,.tsx,.jsx"
+    },
+    "keywords": [
+        "electron boilerplate",
+        "electron-webpack",
+        "electron-react",
+        "electron-javascript",
+        "boilerplate",
+        "2023"
+    ],
+    "author": {
+        "name": "lastelok",
+        "url": "https://github.com/lastelok"
+    },
+    "contributors": [],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lastelok/electron-react-webpack-obfuscator-2023"
+    },
+    "license": "MIT",
+    "config": {
+        "forge": "./tools/forge/forge.config.js"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.22.10",
+        "@babel/preset-react": "^7.22.5",
+        "@electron-forge/cli": "6.0.5",
+        "@electron-forge/maker-deb": "6.0.5",
+        "@electron-forge/maker-rpm": "6.0.5",
+        "@electron-forge/maker-squirrel": "6.0.5",
+        "@electron-forge/maker-zip": "6.0.5",
+        "@electron-forge/plugin-webpack": "6.0.5",
+        "@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
+        "@vercel/webpack-asset-relocator-loader": "^1.7.3",
+        "@types/react": "^18.0.29",
+        "@types/react-dom": "^18.0.11",
+        "@types/webpack-env": "^1.18.0",
+        "@typescript-eslint/eslint-plugin": "^5.56.0",
+        "@typescript-eslint/parser": "^5.56.0",
+        "babel-loader": "^9.1.3",
+        "classnames": "^2.3.2",
+        "cross-env": "^7.0.3",
+        "css-loader": "^6.7.3",
+        "electron": "^26.0.0",
+        "eslint": "^8.36.0",
+        "eslint-import-resolver-alias": "^1.1.2",
+        "eslint-plugin-import": "^2.27.5",
+        "eslint-plugin-react": "^7.32.2",
+        "file-loader": "^6.2.0",
+        "javascript-obfuscator": "^4.0.2",
+        "node-loader": "^2.0.0",
+        "react-refresh": "^0.14.0",
+        "sass": "^1.60.0",
+        "sass-loader": "^13.2.1",
+        "style-loader": "^3.3.2",
+        "webpack": "^5.88.2",
+        "webpack-obfuscator": "^3.5.1"
+    },
+    "dependencies": {
+        "electron-squirrel-startup": "^1.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
