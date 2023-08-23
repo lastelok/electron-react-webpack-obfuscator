@@ -9,7 +9,7 @@ let appWindow
  * Create Application Window
  * @returns {BrowserWindow} Application Window Instance
  */
-export function createAppWindow() {
+exports.createAppWindow = function createAppWindow() {
     // Create new window instance
     appWindow = new BrowserWindow({
         width: 800,

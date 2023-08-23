@@ -1,5 +1,5 @@
 {
-    "name": "electron-react-webpack-obfuscator-2023",
+    "name": "electron-react-webpack-obfuscator",
     "productName": "ERWO Boilerplate",
     "version": "1.0.0",
     "description": "Custom boilerplate for writing Desktop Applications using Electron, React, Webpack, Obfuscator in 2023",
