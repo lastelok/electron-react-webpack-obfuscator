@@ -70,7 +70,7 @@ module.exports = {
                             // HTML index file template
                             html: path.join(rootDir, 'src/renderer/app.html'),
                             // Renderer
-                            js: path.join(rootDir, 'src/renderer/appRenderer.jsx'),
+                            js: path.join(rootDir, 'src/renderer/appRenderer.js'),
                             // Main Window
                             // Preload
                             preload: {
